@@ -1,0 +1,55 @@
+/*REMEMBER: NO ID'S AND CLASSES AND ONLY USE SELECTORS*/
+ul li:nth-child(even){
+	color:green;
+}
+
+ul li:nth-child(3){
+	background-color:lightblue;
+}
+ul li:nth-child(3) a{
+	color:red;
+}
+ul li:nth-child(5) a{
+	color:red;
+}
+ul li:nth-child(5) a:hover{
+	color:gray;
+}
+
+ul li:nth-child(2) {
+	list-style-type: none;
+}
+ul li:nth-child(5) {
+	list-style-type: none;
+}
+ul li:first-child{
+	border-top: 1px solid green;
+}
+
+ul li:last-child{
+	border-bottom: 5px dotted blue;
+}
+
+
+
+input[type="password"] {
+	color:transparent;
+}
+input[type="email"]:focus {
+	color:purple;
+	background-color: yellow;
+}
+input[type="text"]:focus {
+  background-color: gray;
+
+}
+input[type="submit"]:hover {
+  color: red;
+
+}
+
+
+
+input[placeholder="last name"]:focus {color: blue;}
+
+form div:first-child input:focus {color: green;}
